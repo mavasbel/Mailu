@@ -1,39 +1,26 @@
-<p align="leftr"><img src="docs/assets/logomark.png" alt="Mailu" height="200px"></p>
+# Mailu
 
+Fork of the Mailu mail server (Dockerized full-featured mail system) — kept for reference, not owned.
 
-Mailu is a simple yet full-featured mail server as a set of Docker images.
-It is free software (both as in free beer and as in free speech), open to
-suggestions and external contributions. The project aims at providing people
-with an easily setup, easily maintained and full-featured mail server while
-not shipping proprietary software nor unrelated features often found in
-popular groupware.
+Status: fork — upstream work, no ownership claimed.
 
-Most of the documentation is available on our [Website](https://mailu.io).
-You can also [try our demo server](https://mailu.io/master/demo.html)
-before setting up your own.
+## Why
 
-Features
-========
+Personal fork for tracking and reference. All credit belongs to the upstream project.
 
-Main features include:
+## Upstream
 
-- **Standard email server**, IMAP and IMAP+, SMTP and Submission with auto-configuration profiles for clients
-- **Advanced email features**, aliases, domain aliases, custom routing, full-text
-  search of email attachments, IMAP METADATA, and BURL-enabled submission for
-  supporting mail clients
-- **Web access**, multiple Webmails and administration interface
-- **User features**, aliases, auto-reply, auto-forward, fetched accounts, managesieve, OpenPGP key publication through WKD, passkey sign-in to Webmail
-- **Admin features**, global admins, announcements, per-domain delegation, quotas, passkey sign-in and user passkey management
-- **Security**, enforced TLS, DANE, MTA-STS, Letsencrypt!, outgoing DKIM, anti-virus scanner, [Snuffleupagus](https://github.com/jvoisin/snuffleupagus/), block malicious attachments
-- **Antispam**, auto-learn, greylisting, DMARC and SPF, anti-spoofing
-- **Freedom**, all FOSS components, no tracker included
+- Upstream: [Mailu/Mailu](https://github.com/Mailu/Mailu)
+- Project site: [mailu.io](https://mailu.io)
+- This fork: [mavasbel/Mailu](https://github.com/mavasbel/Mailu) (branch `master`, kept as-is)
+- Sync note: upstream is the source of truth; this fork may lag behind. Check upstream for the current state.
 
-![Domains](docs/assets/screenshots/domains.png)
+## Run
 
-Contributing
-============
+No install here — follow the upstream setup at [mailu.io](https://mailu.io) and [Mailu/Mailu](https://github.com/Mailu/Mailu).
 
-Mailu is free software, open to suggestions and contributions. All
-components are free software and compatible with the MIT license. All
-specific configuration files, Dockerfiles and code are placed under the
-MIT license.
+## Links
+
+- [Upstream Mailu/Mailu](https://github.com/Mailu/Mailu)
+- [mailu.io](https://mailu.io)
+- [This fork](https://github.com/mavasbel/Mailu)
